@@ -1,0 +1,40 @@
+.price{
+    color: red;
+}
+b{
+    color: #000;
+}
+.container-detail{
+    margin: 100px auto;
+}
+img{
+    width: 100%;
+}
+p{
+    margin-top: 20px;
+}
+.icons{
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.details-btn{
+    padding: 10px;
+    margin-right: 10px;
+}
+.details-btn:active{
+    transition: .8s;
+    transform: scale(0.9);
+}
+.details-btn:hover{
+    cursor: pointer;
+}
+hr{
+    height: 2px;
+    color: gray;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+*{
+    font-family: "Quicksand", sans-serif;
+
+}

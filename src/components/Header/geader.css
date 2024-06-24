@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+header {
+    background-color: rgb(52, 89, 255);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.cart-header-icon {
+    margin-right: 5px;
+}
+
+.cart-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cart-count-red-dot{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    position: absolute;
+    top: 12px;
+    right: -18px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    font-size: 22px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.header-logo:hover {
+    transform: scale(0.9);
+    color: rgb(22, 21, 21);
+}
+
+.header-logo {
+    font-family: "Quicksand", sans-serif;
+    transition: 0.5s;
+}
+
+.cart-header-icon {
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+body {
+    margin-top: 80px; /* Add margin to body to offset the fixed header */
+}
